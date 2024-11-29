@@ -4,7 +4,7 @@ import axios from 'axios';
 export default function Contain() {
   const [products, setProducts]= useState([])
   // const [id, setid]= useState([])
-  const url ="http://localhost:8080/"
+  const url ="https://backend-tl52.onrender.com/"
   //const url = "mongodb+srv://jaiswalbittu0319:w8n1XzuKiUICYits@cluster0.cls3a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
   const getdata = async() =>{

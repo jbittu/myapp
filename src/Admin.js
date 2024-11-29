@@ -8,7 +8,7 @@ export default function Admin() {
     const [price, setprice]= useState([])
     const [desc, setdesc]= useState([])
     const [url, seturl]= useState([])
-    const api = "http://localhost:8080"
+    const api = "https://backend-tl52.onrender.com"
     //const api = "mongodb+srv://jaiswalbittu0319:w8n1XzuKiUICYits@cluster0.cls3a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     
     
