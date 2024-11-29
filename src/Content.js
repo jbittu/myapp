@@ -5,6 +5,8 @@ export default function Contain() {
   const [products, setProducts]= useState([])
   // const [id, setid]= useState([])
   const url ="http://localhost:8080/"
+  //const url = "mongodb+srv://jaiswalbittu0319:w8n1XzuKiUICYits@cluster0.cls3a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
   const getdata = async() =>{
     const response = await axios.get(url)
     setProducts(response.data)
